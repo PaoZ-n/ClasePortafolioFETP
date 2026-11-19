@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio académico y profesional de Nancy Paola Zárate Rincón, con enfoque en epidemiología y salud pública.">
+  <meta name="theme-color" content="#087f8c">
+  <title>Portafolio de servicios | Nancy Paola Zárate Rincón</title>
+  <style>
+    :root{--turq:#087f8c;--aqua:#20b8b0;--deep:#123b52;--ink:#294653;--muted:#647b85;--pale:#eaf8f7;--line:#d8eceb;--white:#fff;--shadow:0 18px 55px rgba(18,59,82,.10)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--white);color:var(--ink);font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.65}
+    a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+    .topbar{position:sticky;top:0;z-index:10;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+    nav{min-height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:850;color:var(--deep);letter-spacing:-.04em}.brand span{color:var(--aqua)}
+    .navlinks{display:flex;gap:25px;font-size:.9rem;color:var(--muted)}.navlinks a:hover{color:var(--turq)}
+    .hero{position:relative;overflow:hidden;padding:105px 0 92px;background:radial-gradient(circle at 88% 20%,#d9f5f1 0,transparent 28%),linear-gradient(135deg,#fff 50%,#f2fbfa)}
+    .hero:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #bde7e3;border-radius:50%;right:-120px;bottom:-210px;box-shadow:0 0 0 35px rgba(32,184,176,.05),0 0 0 75px rgba(32,184,176,.04)}
+    .eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--turq);font-size:.78rem;font-weight:800;letter-spacing:.16em;text-transform:uppercase}.eyebrow:before{content:"";width:27px;height:2px;background:var(--aqua)}
+    h1{max-width:820px;margin:20px 0 15px;color:var(--deep);font-size:clamp(2.7rem,7vw,5.6rem);line-height:.99;letter-spacing:-.065em}
+    h1 em{font-style:normal;color:var(--turq)}.lead{max-width:690px;color:#526d78;font-size:1.15rem}
+    .actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;padding:13px 21px;border-radius:999px;font-weight:750;font-size:.92rem;transition:.2s}.btn.primary{background:var(--turq);color:white;box-shadow:0 9px 22px #087f8c33}.btn.primary:hover{transform:translateY(-3px);background:var(--deep)}.btn.ghost{border:1px solid #b9dcda;color:var(--deep)}.btn.ghost:hover{background:var(--pale)}
+    .hero-note{margin-top:38px;color:var(--muted);font-size:.83rem}
+    section{padding:83px 0}.section-head{max-width:680px;margin-bottom:35px}.kicker{color:var(--aqua);font-size:.75rem;font-weight:850;letter-spacing:.17em;text-transform:uppercase}h2{margin:8px 0 12px;color:var(--deep);font-size:clamp(2rem,4vw,3.1rem);line-height:1.1;letter-spacing:-.045em}.section-head p{color:var(--muted);margin:0}
+    .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:stretch}.about-copy{font-size:1.07rem}.quote{padding:30px;border-radius:24px;background:var(--pale);border:1px solid var(--line);color:var(--deep);display:flex;flex-direction:column;justify-content:center}.quote strong{font-size:1.35rem;line-height:1.35;letter-spacing:-.025em}.quote small{margin-top:16px;color:var(--turq);font-weight:800;letter-spacing:.08em;text-transform:uppercase}
+    .skills{background:#f7fbfb}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.card{background:white;border:1px solid var(--line);border-radius:19px;padding:25px;box-shadow:0 6px 25px rgba(18,59,82,.035);transition:.25s}.card:hover{transform:translateY(-5px);box-shadow:var(--shadow)}.num{font-size:.78rem;color:var(--aqua);font-weight:900;letter-spacing:.1em}.card h3{margin:12px 0 8px;color:var(--deep);font-size:1.13rem}.card p{margin:0;color:var(--muted);font-size:.94rem}
+    .services-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:15px}.service{padding:21px 23px;border:1px solid var(--line);border-radius:15px;display:flex;gap:15px;align-items:flex-start}.check{flex:0 0 30px;height:30px;border-radius:10px;background:var(--pale);color:var(--turq);display:grid;place-items:center;font-weight:900}.service strong{display:block;color:var(--deep)}.service span{font-size:.9rem;color:var(--muted)}
+    .steps{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.step{padding:24px;border-radius:18px;background:white;border:1px solid var(--line)}.step b{color:var(--turq);font-size:.8rem;letter-spacing:.1em}.step h3{color:var(--deep);margin:10px 0 7px}.step p{color:var(--muted);font-size:.93rem;margin:0}
+    .contact{background:var(--deep);color:white}.contact h2{color:white}.contact .section-head p{color:#c1d5db}.contact-box{padding:30px;border:1px solid #426577;border-radius:22px;background:#1a4b61}.contact-box p{margin:5px 0 0;color:#c1d5db}
+    footer{padding:25px 0;color:var(--muted);font-size:.8rem}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    .reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease}.reveal.visible{opacity:1;transform:none}
+    @media(max-width:800px){.navlinks{gap:12px;font-size:.78rem}.about-grid{grid-template-columns:1fr}.cards,.steps{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:560px){nav{align-items:flex-start;padding:17px 0;flex-direction:column}.navlinks{width:100%;overflow:auto;padding-bottom:3px;white-space:nowrap}.hero{padding:75px 0 65px}section{padding:62px 0}.cards,.services-grid,.steps{grid-template-columns:1fr}.lead{font-size:1.03rem}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{opacity:1;transform:none;transition:none}*{transition:none!important}}
+  </style>
+</head>
+<body>
+<header class="topbar"><div class="wrap"><nav aria-label="Navegación principal">
+  <a class="brand" href="#inicio">NANCY PAOLA <span>ZÁRATE.</span></a>
+  <div class="navlinks"><a href="#perfil">Perfil</a><a href="#fortalezas">Habilidades</a><a href="#servicios">Servicios</a><a href="#metodologia">Metodología</a><a href="#contacto">Contacto</a></div>
+</nav></div></header>
+<main>
+  <section class="hero" id="inicio"><div class="wrap">
+    <span class="eyebrow">Portafolio de servicios · Salud pública</span>
+    <h1>Nancy Paola<br><em>Zárate Rincón</em></h1>
+    <p class="lead">Profesional del área de epidemiología, con experiencia institucional en la Secretaría de Salud de Boyacá. Enfoque en análisis de información, asesoría técnica, investigación y formulación de proyectos para apoyar la toma de decisiones en salud pública.</p>
+    <div class="actions"><a class="btn primary" href="#servicios">Explorar servicios ↗</a><a class="btn ghost" href="#perfil">Conocer el enfoque</a></div>
+    <p class="hero-note">Portafolio elaborado para presentación académica</p>
+  </div></section>
+
+  <section id="perfil"><div class="wrap reveal"><div class="section-head"><span class="kicker">01 / Perfil</span><h2>Conocimiento que se convierte en acción.</h2></div>
+    <div class="about-grid"><div class="about-copy">
+      <p>Mi perfil académico y técnico está orientado a la epidemiología y la salud pública. Cuento con experiencia institucional en la Secretaría de Salud de Boyacá y con interés en el análisis de situaciones de salud, la interpretación de información poblacional y la elaboración de propuestas que contribuyan a responder a las necesidades de las comunidades.</p>
+      <p>Este portafolio reúne mis principales áreas de conocimiento y los servicios técnicos que puedo desarrollar en contextos institucionales, comunitarios y académicos.</p>
+    </div><aside class="quote"><strong>“La información en salud cobra valor cuando ayuda a comprender los problemas y a mejorar las respuestas.”</strong><small>Enfoque de trabajo</small></aside></div>
+  </div></section>
+
+  <section class="skills" id="fortalezas"><div class="wrap reveal"><div class="section-head"><span class="kicker">02 / Habilidades técnicas</span><h2>Capacidades para aportar valor.</h2><p>Competencias generales aplicables a proyectos de epidemiología, investigación y gestión en salud pública.</p></div>
+    <div class="cards">
+      <article class="card"><span class="num">01</span><h3>Vigilancia en salud pública</h3><p>Seguimiento de eventos de interés, lectura de alertas e interpretación de información para orientar acciones.</p></article>
+      <article class="card"><span class="num">02</span><h3>Análisis epidemiológico</h3><p>Interpretación de tasas, tendencias, frecuencias y diferencias entre grupos poblacionales y territorios.</p></article>
+      <article class="card"><span class="num">03</span><h3>Investigación aplicada</h3><p>Apoyo a procesos de investigación, formulación de preguntas y análisis de problemas prioritarios.</p></article>
+      <article class="card"><span class="num">04</span><h3>Gestión de información</h3><p>Organización, depuración, lectura y síntesis de datos para facilitar su comprensión.</p></article>
+      <article class="card"><span class="num">05</span><h3>Enfoque territorial y diferencial</h3><p>Reconocimiento de contextos sociales y territoriales y de posibles desigualdades en salud.</p></article>
+      <article class="card"><span class="num">06</span><h3>Comunicación técnica</h3><p>Elaboración de informes, presentaciones y productos que comuniquen hallazgos con claridad.</p></article>
+    </div>
+  </div></section>
+
+  <section id="servicios"><div class="wrap reveal"><div class="section-head"><span class="kicker">03 / Servicios</span><h2>Soluciones técnicas con enfoque en salud.</h2><p>Servicios demostrativos que pueden adaptarse a las necesidades de instituciones, equipos de trabajo o proyectos académicos.</p></div>
+    <div class="services-grid">
+      <div class="service"><span class="check">✓</span><div><strong>Asesoría técnica en epidemiología</strong><span>Orientación para analizar situaciones prioritarias y fortalecer procesos de salud pública.</span></div></div>
+      <div class="service"><span class="check">✓</span><div><strong>Análisis de información e indicadores</strong><span>Interpretación de tasas, tendencias, brechas y comportamiento de eventos en salud.</span></div></div>
+      <div class="service"><span class="check">✓</span><div><strong>Análisis de situación de salud</strong><span>Organización de información para describir necesidades, riesgos y condiciones poblacionales.</span></div></div>
+      <div class="service"><span class="check">✓</span><div><strong>Formulación y estructuración de proyectos</strong><span>Apoyo en objetivos, justificación, metodología, actividades e indicadores.</span></div></div>
+      <div class="service"><span class="check">✓</span><div><strong>Apoyo a procesos de investigación</strong><span>Organización de antecedentes, preguntas, variables y estrategias de análisis.</span></div></div>
+      <div class="service"><span class="check">✓</span><div><strong>Informes y comunicación de resultados</strong><span>Presentación de hallazgos y recomendaciones para públicos técnicos y generales.</span></div></div>
+    </div>
+  </div></section>
+
+  <section class="skills" id="metodologia"><div class="wrap reveal"><div class="section-head"><span class="kicker">04 / Trayectoria y forma de trabajo</span><h2>Un proceso claro y organizado.</h2><p>Una metodología general para acompañar necesidades técnicas desde su comprensión hasta la presentación de resultados.</p></div>
+    <div class="steps">
+      <article class="step"><b>EXPERIENCIA INSTITUCIONAL</b><h3>Secretaría de Salud de Boyacá</h3><p>Experiencia en el ámbito institucional de la salud pública y la epidemiología.</p></article>
+      <article class="step"><b>PRODUCCIÓN ACADÉMICA</b><h3>Investigación epidemiológica</h3><p>Coautoría de un estudio sobre disparidades de la mortalidad por infección respiratoria aguda en menores de cinco años en Colombia, durante 2018–2023.</p><p><a href="https://www.researchgate.net/publication/403101934_Disparidades_de_la_mortalidad_por_infeccion_respiratoria_aguda_en_menores_de_cinco_anos_en_Colombia_2018_a_2023" target="_blank" rel="noopener" style="color:var(--turq);font-weight:800">Consultar publicación en ResearchGate ↗</a></p></article>
+      <article class="step"><b>ETAPA 01</b><h3>Comprender</h3><p>Identificar la necesidad, el contexto, la población de interés y los objetivos del trabajo.</p></article>
+      <article class="step"><b>ETAPA 02</b><h3>Analizar</h3><p>Revisar la información disponible, organizar los datos y aplicar herramientas de análisis pertinentes.</p></article>
+      <article class="step"><b>ETAPA 03</b><h3>Proponer</h3><p>Presentar resultados, conclusiones y recomendaciones de manera clara y sustentada.</p></article>
+    </div>
+  </div></section>
+
+  <section class="contact" id="contacto"><div class="wrap reveal"><div class="section-head"><span class="kicker">05 / Contacto</span><h2>Convirtamos información en soluciones.</h2><p>Para consultas académicas o solicitudes de asesoría, se puede habilitar un canal de contacto profesional.</p></div>
+    <div class="contact-box"><strong>Contacto profesional</strong><p>Los datos de contacto se pueden incorporar posteriormente, si se desea hacer pública una dirección de correo o un canal profesional.</p></div>
+  </div></section>
+</main>
+<footer><div class="wrap foot"><span>© <span id="year"></span> · Nancy Paola Zárate Rincón</span><span>Epidemiología · Salud pública · Análisis de información</span></div></footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const observer = new IntersectionObserver(entries => entries.forEach(entry => {
+    if(entry.isIntersecting){entry.target.classList.add('visible');observer.unobserve(entry.target);}
+  }), {threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
